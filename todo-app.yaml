@@ -10,7 +10,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: k8s # directory ที่เก็บไฟล์ manifest ไว้
-    repoURL: 'https://github.com/thetkpark/argo-cd-example.git' # Git repo 
+    repoURL: 'https://github.com/tongchaisirirat/argo-cd-example-main.git' # Git repo 
     targetRevision: HEAD # จุดใน Git ที่ให้ Argo CD นำไปใช้
     directory:
       recurse: true # ให้หาไฟล์ manifest ที่อยู่ใน sub-directory ด้วย
